@@ -25,7 +25,6 @@ public class Main {
 
     private final static int BOARD_LIMIT = 9;
 
-
      static void main(String[] args) {
 
         final var positions = Stream.of(args).collect(toMap(
@@ -73,9 +72,6 @@ public class Main {
             System.out.println("O jogo ja foi iniciado!");
             return;
         }
-
-
-
 
         List<List<Space>> spaces = new ArrayList<>();
 
